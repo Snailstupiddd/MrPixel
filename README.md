@@ -126,7 +126,7 @@ chmod + x wifi-hacker.sh
 ./wifi-hacker.sh
 fi
 
-jika [$ nomor = 10]
+if [$ nomor = 10]
 kemudian
 bersih
 pkg instal php git
@@ -135,7 +135,7 @@ cd kkktp
 php kkktp.php
 fi
 
-jika [$ nomor = 11]
+if [$ nomor = 11]
 kemudian
 bersih
 pkg instal pembaruan
@@ -148,20 +148,20 @@ cd B4J1N64Nv5
 sh B4J1N64N.sh
 fi
 
-jika [$ nomor = 12]
+if [$ nomor = 12]
 kemudian
 bersih
 echo "ketik = curl http://wttr.in/ (lokasi)" | lolcat
 fi
 
-jika [$ nomor = 13]
+if [$ nomor = 13]
 kemudian
 bersih
 pkg instal termux-api
 gema "termux-telephony-call (nomor yang dituju)" | lolcat
 fi
 
-jika [$ nomor = 14]
+if [$ nomor = 14]
 kemudian
 bersih
 pkg instal neofetch
