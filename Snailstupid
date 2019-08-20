@@ -1,18 +1,19 @@
 # MrPixel
 #! / bin / bash
 bersih
-echo "================================================ =============== "| lolcat
+echo "=============================================================== "| lolcat
 figlet memasukkan kata sandi | lolcat
-echo "================================================ =============== "| lolcat
+echo "=============================================================== "| lolcat
 echo "ketik passwordnya:" | lolcat
 
 baca kata sandi
 
-jika [$ password = bacot]
+if [$ password = bacot]
 kemudian
 bersih
 gema "bagus" | lolcat
 fi
+
 cowsay -f mata Halo | lolcat
 figlet Mr.P1x31 | lolcat
 tanggal | lolcat
